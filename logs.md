@@ -206,7 +206,7 @@ May 19 16:32:48 Ubuntu-2004-focal-64-minimal humansd[3510438]: 4:32PM INF Replay
 May 19 16:32:48 Ubuntu-2004-focal-64-minimal humansd[3510438]: 4:32PM INF Replay: Vote blockID={"hash":"4A1761A315623DD2A094A2D8D9C93645415E3E0A47FD880BB268B41D618F4500","parts":{"hash":"F0655C89589A7BFF45B7566F38D3CB21575CE8B03471E7B2E87F8CE6FDF6540F","total":1}} height=115330 module=consensus peer=6c2581bce457207a8d29895216a06f0f98d39599 round=0 server=node type=2
 ~~~
 
-## Restart 3
+## Restart 3 2023-05-16 00:28:03 CEST
 ~~~bash
 sudo systemctl restart humansd && sudo journalctl -u humansd -f
 -- Logs begin at Tue 2023-05-16 00:28:03 CEST. --
