@@ -1,7 +1,7 @@
 # Hi!
 
 ## Restart 1 2023-05-15 21:37:02 CEST. --
-> sudo systemctl restart humansd && sudo journalctl -u humansd -f
+~~~bash sudo systemctl restart humansd && sudo journalctl -u humansd -f
 -- Logs begin at Mon 2023-05-15 21:37:02 CEST. --
 May 19 16:22:55 Ubuntu-2004-focal-64-minimal humansd[2471517]: 4:22PM INF service stop impl={"Logger":{},"Switch":{"Logger":{}}} module=pex msg={} server=node
 May 19 16:22:55 Ubuntu-2004-focal-64-minimal humansd[2471517]: 4:22PM INF service stop book=/root/.humansd/config/addrbook.json impl={"Logger":{}} module=p2p msg={} server=node
@@ -89,6 +89,9 @@ May 19 16:22:56 Ubuntu-2004-focal-64-minimal humansd[3503604]: 4:22PM INF Replay
 May 19 16:22:56 Ubuntu-2004-focal-64-minimal humansd[3503604]: 4:22PM INF Replay: Vote blockID={"hash":"06C846E8FD8D3736293BECDD17B51F6DED41B5E02792FDC193EFB251AB47CDCC","parts":{"hash":"07F449C5460D97F2B599A242F59235293A74A569A34C0369E11C360699A80DCA","total":1}} height=115245 module=consensus peer=8855d5696c4aec427051bd2ed3262e7e3a37f34d round=0 server=node type=2
 May 19 16:22:56 Ubuntu-2004-focal-64-minimal humansd[3503604]: 4:22PM INF Replay: Vote blockID={"hash":"06C846E8FD8D3736293BECDD17B51F6DED41B5E02792FDC193EFB251AB47CDCC","parts":{"hash":"07F449C5460D97F2B599A242F59235293A74A569A34C0369E11C360699A80DCA","total":1}} height=115245 module=consensus peer=8855d5696c4aec427051bd2ed3262e7e3a37f34d round=0 server=node type=2
 May 19 16:22:56 Ubuntu-2004-focal-64-minimal humansd[3503604]: 4:22PM INF Replay: Vote blockID={"hash":"06C846E8FD8D3736293BECDD17B51F6DED41B5E02792FDC193EFB251AB47CDCC","parts":{"hash":"07F449C5460D97F2B599A242F59235293A74A569A34C0369E11C360699A80DCA","total":1}} height=115245 module=consensus peer=8855d5696c4aec427051bd2ed3262e7e3a37f34d round=0 server=node type=2
-<
+~~~
 
 ## Restart 2
+~~~bash
+
+~~~
